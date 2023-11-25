@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Todo from './components/Todo'
 import useSWR from 'swr';
 import { TodoType } from './types';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { useTodos } from './hooks/useTodos';
 import { API_URL } from '@/constants/url';
 
